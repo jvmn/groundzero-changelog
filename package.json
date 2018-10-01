@@ -13,6 +13,9 @@
     "url": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog"
   },
   "main": "./lib/index.js",
+  "bin": {
+    "groundzero-changelog": "./lib/index.js"
+  },
   "scripts": {
     "start": "node ./lib/index.js",
     "run": "node ./lib/index.js",
