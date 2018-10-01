@@ -1,6 +1,6 @@
 {
   "name": "groundzero-changelog",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Change-log generator for JVM GroundZero projects",
   "keywords": [
     "changelog",
@@ -13,6 +13,15 @@
     "url": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog"
   },
   "main": "./lib/index.js",
+  "bin": {
+    "groundzero-changelog": "./cli.js"
+  },
+  "jvmChangelog": {
+    "pathChangelog": "./docs/CHANGELOG.md",
+    "pathRepo": "./.git",
+    "gitRepo": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog",
+    "ignores": "build,revert,test"
+  },
   "scripts": {
     "start": "node ./lib/index.js",
     "run": "node ./lib/index.js",
