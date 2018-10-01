@@ -1,0 +1,36 @@
+{
+  "name": "groundzero-changelog",
+  "version": "1.0.0",
+  "description": "Change-log generator for JVM GroundZero projects",
+  "keywords": [
+    "changelog",
+    "groundzero"
+  ],
+  "author": "Jung von Matt/Neckar - Shachar Leuchter",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "run": "node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "develop/**/*.js": "eslint"
+  },
+  "dependencies": {
+    "nodegit": "^0.22.2",
+    "path": "^0.12.7",
+    "semver": "^5.5.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "eslint": "^5.3.0",
+    "lint-staged": "^7.2.0",
+    "husky": "^0.14.3"
+  }
+}
