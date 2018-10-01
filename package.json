@@ -1,6 +1,6 @@
 {
   "name": "groundzero-changelog",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Change-log generator for JVM GroundZero projects",
   "keywords": [
     "changelog",
@@ -17,15 +17,11 @@
     "groundzero-changelog": "./cli.js"
   },
   "jvmChangelog": {
-    "pathChangelog": "./docs/CHANGELOG.md",
-    "pathRepo": "./.git",
     "gitRepo": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog",
     "ignores": "build,revert,test"
   },
   "scripts": {
-    "start": "node ./lib/index.js",
-    "run": "node ./lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "node ./lib/index.js"
   },
   "lint-staged": {
     "develop/**/*.js": "eslint"
