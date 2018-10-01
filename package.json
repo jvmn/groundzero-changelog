@@ -17,9 +17,6 @@
     "groundzero-changelog": "./cli.js"
   },
   "jvmChangelog": {
-    "pathChangelog": "./docs/CHANGELOG.md",
-    "pathRepo": "./.git",
-    "gitRepo": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog",
     "ignores": "build,revert,test"
   },
   "scripts": {
