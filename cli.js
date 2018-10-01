@@ -3,4 +3,4 @@
 
 require("./lib/index.js");
 
-console.log('GroundZero Changelog Bin');
+// console.log('Starting Groundzero changelog');
