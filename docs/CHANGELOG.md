@@ -1,6 +1,16 @@
 
  *** 
 
+# [1.2.0](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/compare/commits?targetBranch=refs%2Ftags%2F1.1.1&sourceBranch=refs%2Ftags%2F1.2.0) (09.10.2018)
+### Chores
+
+* **cli:**  remove console log ([eb01388](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/eb01388)) _by [Shachar Leuchter](shachar.leuchter@jvm.de)_
+### Features
+
+* **module:**  change module name ([c2de055](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/c2de055)) _by [Oliver Müller](oliver.mueller@jvm.de)_
+
+ *** 
+
 # [1.1.1](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/compare/commits?targetBranch=refs%2Ftags%2F1.1.0&sourceBranch=refs%2Ftags%2F1.1.1) (01.10.2018)
 ### Documentation
 
