@@ -1,7 +1,7 @@
 {
-  "name": "groundzero-changelog",
+  "name": "@jvmn/groundzero-changelog",
   "version": "1.1.1",
-  "description": "Change-log generator for JVM GroundZero projects",
+  "description": "Changelog generator for JvM/Neckar Groundzero projects",
   "keywords": [
     "changelog",
     "groundzero"
