@@ -11,9 +11,14 @@ Updates the release version and writes all commits to changelog.
 3) Formats the commits to markdown and writes to CHANGELOG.md
 
 ## Installation
-1) run 
+1) npm install: 
     ```
     npm i git://stash.jvm.de/scm/jvmnec/groundzero-changelog.git --save-dev
+    ```
+    If install is stuck or not working try this alternate URL:
+
+    ```
+    npm i git+https://stash.jvm.de/scm/jvmnec/groundzero-changelog.git --save-dev
     ```
 2) add script to the scripts section in your package.json
     ```json
