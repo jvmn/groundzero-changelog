@@ -36,6 +36,7 @@ Defaults to:
     "pathChangelog": "./docs/CHANGELOG.md",
     "pathRepo": "./.git",
     "gitRepo": "false",
+    "gitPlatform": "bitbucket", // or "github"
     "ignores": "build,chore,revert,test"
 },
 ```
