@@ -1,6 +1,6 @@
 {
   "name": "@jvmn/groundzero-changelog",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Changelog generator for JvM/Neckar Groundzero projects",
   "keywords": [
     "changelog",

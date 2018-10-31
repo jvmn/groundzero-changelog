@@ -1,6 +1,28 @@
 
  *** 
 
+# [1.5.0](https://github.com/jvmn/groundzero-changelog/compare/1.4.0...1.5.0) (31.10.2018)
+
+ ### Breaking changes
+ * Repository moved to github: https://github.com/jvmn/groundzero-changelog. For old projects please uninstall the old package and install the new one.
+
+ ### Chores
+
+* **package:**  update depndencies ([91a0f1e](https://github.com/jvmn/groundzero-changelog/commit/91a0f1e)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+ ### Documentation
+
+* **readme:**  update gitPlatform and npm i url ([f91504f](https://github.com/jvmn/groundzero-changelog/commit/f91504f)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+* **license:**  add license to package ([610fb54](https://github.com/jvmn/groundzero-changelog/commit/610fb54)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+* **changelog:**  replace bitbucket with github urls ([c83bc50](https://github.com/jvmn/groundzero-changelog/commit/c83bc50)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+ ### Features
+
+* **options:**  add gitPlatform support for url formats now supports bitbucket as default and github as option ([a6da655](https://github.com/jvmn/groundzero-changelog/commit/a6da655)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+ ### Code Refactoring
+
+* **package:**  change repo url to github ([13fbfe9](https://github.com/jvmn/groundzero-changelog/commit/13fbfe9)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+
+ *** 
+
 # [1.4.0](https://github.com/jvmn/groundzero-changelog/compare/1.3.0...1.4.0) (31.10.2018)
 
  ### Documentation
