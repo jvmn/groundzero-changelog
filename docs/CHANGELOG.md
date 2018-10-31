@@ -1,13 +1,27 @@
 
  *** 
 
+# [1.4.0](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/compare/commits?targetBranch=refs%2Ftags%2F1.3.0&sourceBranch=refs%2Ftags%2F1.4.0) (31.10.2018)
+
+ ### Documentation
+
+* **readme:**  update info ([21c2d4c](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/21c2d4c)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+ ### Features
+
+* **template:**  add release comments to template ([c32184b](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/c32184b)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+ ### Code Refactoring
+
+* **template:**  use formattedDate method on commit date ([fcffb3b](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/fcffb3b)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @31.10.2018_
+
+ *** 
+
 # [1.3.0](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/compare/commits?targetBranch=refs%2Ftags%2F1.2.0&sourceBranch=refs%2Ftags%2F1.3.0) (30.10.2018)
 ### Documentation
 
-* **readme:**  add alternate url ([4c7bd33](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/4c7bd33)) _by [Oliver Müller](oliver.mueller@jvm.de) @10/9/2018_
+* **readme:**  add alternate url ([4c7bd33](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/4c7bd33)) _by [Oliver Müller](oliver.mueller@jvm.de) @09.10.2018_
 ### Features
 
-* **template:**  add formated commit date ([fdcd463](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/fdcd463)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @10/30/2018_
+* **template:**  add formated commit date ([fdcd463](https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog/commits/fdcd463)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @30.10.2018_
 
  *** 
 
