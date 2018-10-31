@@ -8,6 +8,9 @@
   ],
   "author": "Jung von Matt/Neckar - Shachar Leuchter",
   "license": "MIT",
+  "engines": {
+    "node": "^8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://stash.jvm.de/projects/JVMNEC/repos/groundzero-changelog"
@@ -21,10 +24,12 @@
     "ignores": "build,revert,test"
   },
   "scripts": {
+    "precommit": "lint-staged",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
     "release": "node ./lib/index.js"
   },
   "lint-staged": {
-    "develop/**/*.js": "eslint"
+    "**/*.js": "eslint"
   },
   "dependencies": {
     "nodegit": "^0.22.2",
