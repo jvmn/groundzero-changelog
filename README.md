@@ -2,11 +2,11 @@
 
 ## What is this script doing?
 
-Updates the release version and writes all commits to changelog.
+Bumps the release version depending on the type of commits found and writes all the commits to a changelog file in Markdown format.
 
 ## How is it doing it?
 
-1) Gets the last release tag and scans all commits from the git HEAD to that point.
+1) Gets the last release tag from the package.json and scans all commits from the git HEAD to that point.
 2) From the commits determines what type of release it should be and bumps the package.
 3) Formats the commits to markdown and writes to CHANGELOG.md
 
@@ -20,7 +20,7 @@ Updates the release version and writes all commits to changelog.
     ```
     npm i git+https://stash.jvm.de/scm/jvmnec/groundzero-changelog.git --save-dev
     ```
-2) add script to the scripts section in your package.json
+2) add a script to the scripts section in your package.json
     ```json
     "postrelease": "groundzero-changelog",
     ``` 
@@ -41,7 +41,7 @@ Defaults to:
 ```
 **The gitRepo url** (not the clone url) would be added from the project/fractal config, if none exist either add the url here or the changelog will not output commit urls or compare urls between releases.
 
-## Release assumptions
-- Your working on a git-flow structure
-- You make a release from develop branch
-- A Jira ticket is written inside brackets [] and can be located anywhere in the commit
+## Script assumptions
+- Your commits follow the Angular Commit Message Conventions (https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
+
+- A Jira ticket is written inside brackets [TICKET-123] and can be located anywhere in the commit.
