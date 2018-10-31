@@ -11,14 +11,15 @@ Bumps the release version depending on the type of commits found and writes all 
 3) Formats the commits to markdown and writes to CHANGELOG.md
 
 ## Installation
-1) npm install: 
-    ```
-    npm i git://stash.jvm.de/scm/jvmnec/groundzero-changelog.git --save-dev
-    ```
-    If install is stuck or not working try this alternate URL:
+1) npm install: (will be published on npm soon)
 
+    HTTPS:
     ```
-    npm i git+https://stash.jvm.de/scm/jvmnec/groundzero-changelog.git --save-dev
+    npm i https://github.com/jvmn/groundzero-changelog.git --save-dev
+    ```
+    SSH:
+    ```
+    npm i git@github.com:jvmn/groundzero-changelog.git --save-dev
     ```
 2) add a script to the scripts section in your package.json
     ```json
@@ -36,11 +37,12 @@ Defaults to:
     "pathChangelog": "./docs/CHANGELOG.md",
     "pathRepo": "./.git",
     "gitRepo": "false",
-    "gitPlatform": "bitbucket", // or "github"
+    "gitPlatform": "bitbucket",
     "ignores": "build,chore,revert,test"
 },
 ```
 **The gitRepo url** (not the clone url) would be added from the project/fractal config, if none exist either add the url here or the changelog will not output commit urls or compare urls between releases.
+**gitPlatform** responsible for the url format outputed on commits and version compare, by default uses "bitbucket" but now supports also "github".
 
 ## Script assumptions
 - Your commits follow the Angular Commit Message Conventions (https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
