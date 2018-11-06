@@ -27,7 +27,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "release": "node ./lib/index.js"
+    "release": "node ./lib/index.js",
+    "publish": "npm publish"
   },
   "lint-staged": {
     "**/*.js": "eslint"
