@@ -11,16 +11,11 @@ Bumps the release version depending on the type of commits found and writes all 
 3) Formats the commits to markdown and writes to CHANGELOG.md
 
 ## Installation
-1) npm install: (will be published on npm soon)
+1) npm install:
+    ```
+    npm install @jvmn/groundzero-changelog --save-dev
+    ```
 
-    HTTPS:
-    ```
-    npm i https://github.com/jvmn/groundzero-changelog.git --save-dev
-    ```
-    SSH:
-    ```
-    npm i git@github.com:jvmn/groundzero-changelog.git --save-dev
-    ```
 2) add a script to the scripts section in your package.json
     ```json
     "postrelease": "groundzero-changelog",
