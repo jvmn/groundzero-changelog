@@ -1,6 +1,23 @@
 
  *** 
 
+# [1.5.1](https://github.com/jvmn/groundzero-changelog/compare/1.5.0...1.5.1) (06.11.2018)
+
+ ### Breaking changes
+ * Now published on npm. For old projects please uninstall the old package and install the new one. See README for more information.
+
+ ### Documentation
+
+* **readme:**  update package url to npm ([2613cb4](https://github.com/jvmn/groundzero-changelog/commit/2613cb4)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @06.11.2018_
+ ### Code Refactoring
+
+* **package:**  add publish script ([c3f1de3](https://github.com/jvmn/groundzero-changelog/commit/c3f1de3)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @06.11.2018_
+ ### Styles
+
+* **cli:**  remove test logs ([c100934](https://github.com/jvmn/groundzero-changelog/commit/c100934)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @06.11.2018_
+
+ *** 
+
 # [1.5.0](https://github.com/jvmn/groundzero-changelog/compare/1.4.0...1.5.0) (31.10.2018)
 
  ### Breaking changes
