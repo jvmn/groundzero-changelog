@@ -33,11 +33,15 @@ Defaults to:
     "pathRepo": "./.git",
     "gitRepo": "false",
     "gitPlatform": "bitbucket",
-    "ignores": "build,chore,revert,test"
+    "ignores": ["build", "chore", "revert", "test"],
+    "extraComments": []
 },
 ```
 **The gitRepo url** (not the clone url) would be added from the project/fractal config, if none exist either add the url here or the changelog will not output commit urls or compare urls between releases.
+
 **gitPlatform** responsible for the url format outputed on commits and version compare, by default uses "bitbucket" but now supports also "github".
+
+**extraComments** accepts an array with strings and generates extra comment lists automaticly (which you would fill manually) and prints them before the commit groups in each relase. 
 
 ## Script assumptions
 - Your commits follow the Angular Commit Message Conventions (https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
