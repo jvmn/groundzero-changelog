@@ -22,11 +22,8 @@
   "jvmChangelog": {
     "gitRepo": "https://github.com/jvmn/groundzero-changelog",
     "gitPlatform": "github",
-    "ignores": "build,revert,test",
-    "extraComments": [
-      "Breaking changes",
-      "New modules ready to use"
-    ]
+    "ignores": ["build", "revert", "test"],
+    "extraComments": ["Breaking changes"]
   },
   "scripts": {
     "precommit": "lint-staged",
