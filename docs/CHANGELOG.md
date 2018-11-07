@@ -1,6 +1,30 @@
 
  *** 
 
+# [1.6.0](https://github.com/jvmn/groundzero-changelog/compare/1.5.1...1.6.0) (07.11.2018)
+
+ ### Breaking changes 
+ * **ignore-list** if you have defined custom ignore items in your **package.json** config you would need to convert the list from a string to a string array !
+ ```json
+ refactor: "chore,build,test" 
+ to: ["chore","build","test"]
+ ```
+
+ ### Chores
+
+* **package:**  remove npm publish script ([ab12c73](https://github.com/jvmn/groundzero-changelog/commit/ab12c73)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @07.11.2018_
+ ### Documentation
+
+* **readme:**  update new options ([b75ca25](https://github.com/jvmn/groundzero-changelog/commit/b75ca25)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @07.11.2018_
+ ### Features
+
+* **extra-comments:**  expose extra comments as options ([fafb1f3](https://github.com/jvmn/groundzero-changelog/commit/fafb1f3)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @07.11.2018_
+ ### Code Refactoring
+
+* **ignores:**  switch from string to array ([be671dc](https://github.com/jvmn/groundzero-changelog/commit/be671dc)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @07.11.2018_
+
+ *** 
+
 # [1.5.1](https://github.com/jvmn/groundzero-changelog/compare/1.5.0...1.5.1) (06.11.2018)
 
  ### Breaking changes

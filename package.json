@@ -1,6 +1,6 @@
 {
   "name": "@jvmn/groundzero-changelog",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Changelog generator for JvM/Neckar Groundzero projects",
   "keywords": [
     "changelog",
@@ -22,8 +22,14 @@
   "jvmChangelog": {
     "gitRepo": "https://github.com/jvmn/groundzero-changelog",
     "gitPlatform": "github",
-    "ignores": ["build", "revert", "test"],
-    "extraComments": ["Breaking changes"]
+    "ignores": [
+      "build",
+      "revert",
+      "test"
+    ],
+    "extraComments": [
+      "Breaking changes"
+    ]
   },
   "scripts": {
     "precommit": "lint-staged",
