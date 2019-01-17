@@ -1,6 +1,15 @@
 
  *** 
 
+# [1.6.1](https://github.com/jvmn/groundzero-changelog/compare/1.6.0...1.6.1) (17.01.2019)
+
+### Chores
+
+* **package:**  update dependencies ([044fab4](https://github.com/jvmn/groundzero-changelog/commit/044fab4)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @17.01.2019_
+* **package:**  Increased node semver range ([20f4fad](https://github.com/jvmn/groundzero-changelog/commit/20f4fad)) _by [Holger Prys](holger.prys@jvm.de) @05.12.2018_
+
+ *** 
+
 # [1.6.0](https://github.com/jvmn/groundzero-changelog/compare/1.5.1...1.6.0) (07.11.2018)
 
  ### Breaking changes 
