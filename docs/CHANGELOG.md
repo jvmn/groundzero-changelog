@@ -1,6 +1,29 @@
 
  *** 
 
+# [1.7.0](https://github.com/jvmn/groundzero-changelog/compare/1.6.1...1.7.0) (11.07.2019)
+
+ ### Chores
+
+* **log:**  npm link ([9ab21b2](https://github.com/jvmn/groundzero-changelog/commit/9ab21b2)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+ ### Documentation
+
+* **readme:**  update with new features ([1d8ffcf](https://github.com/jvmn/groundzero-changelog/commit/1d8ffcf)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+ ### Features
+
+* **nextsteps:**  standalone log function ([45dc15b](https://github.com/jvmn/groundzero-changelog/commit/45dc15b)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+* **index:**  logNextSteps option ([38091d4](https://github.com/jvmn/groundzero-changelog/commit/38091d4)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+* **log:**  print log commend ([565afbb](https://github.com/jvmn/groundzero-changelog/commit/565afbb)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+* **package:**  next bin function, update dep ([1556790](https://github.com/jvmn/groundzero-changelog/commit/1556790)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+ ### Bug Fixes
+
+* **index:**  deprecationWarning: Buffer() ([1cf70fe](https://github.com/jvmn/groundzero-changelog/commit/1cf70fe)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+ ### Code Refactoring
+
+* **bump:**  return pkg version if undefined ([5ef53b6](https://github.com/jvmn/groundzero-changelog/commit/5ef53b6)) _by [Shachar Leuchter](shachar.leuchter@jvm.de) @11.07.2019_
+
+ *** 
+
 # [1.6.1](https://github.com/jvmn/groundzero-changelog/compare/1.6.0...1.6.1) (17.01.2019)
 
 ### Chores
