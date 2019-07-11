@@ -22,13 +22,18 @@ Bumps the release version depending on the type of commits found and writes all 
     ``` 
     or any other hook you want to run it from.
 
-3) *optionally overwrite default options in package.json
+3) *optionally run standalone nextSteps log via: 
+    ```json
+    "groundzero-changelog-next"
+    ```
+4) *optionally overwrite default options in package.json
 
 ## Options
 In your main project package.json you can overwrite some defaults by adding the jvmChangelog object.
 Defaults to:
 ```json
 "jvmChangelog": {
+    "logNextSteps": "true",
     "pathChangelog": "./docs/CHANGELOG.md",
     "pathRepo": "./.git",
     "gitRepo": "false",
@@ -42,6 +47,8 @@ Defaults to:
 **gitPlatform** responsible for the url format outputed on commits and version compare, by default uses "bitbucket" but now supports also "github".
 
 **extraComments** accepts an array with strings and generates extra comment lists automaticly (which you would fill manually) and prints them before the commit groups in each relase. 
+
+**logNextSteps** if set to false will not print the next steps log at the end of the task. Instead one can run it at a later date via the node command "groundzero-changelog-next"
 
 ## Script assumptions
 - Your commits follow the Angular Commit Message Conventions (https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
