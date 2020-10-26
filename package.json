@@ -36,7 +36,8 @@
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "release": "node ./lib/index.js",
-    "release-log": "node ./log.js"
+    "release-log": "node ./log.js",
+    "pkg:publish": "npm publish --access public"
   },
   "lint-staged": {
     "**/*.js": "eslint"
