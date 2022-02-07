@@ -1,6 +1,43 @@
 
  *** 
 
+# [2.1.0](https://github.com/jvmn/groundzero-changelog/compare/2.0.0...2.1.0) (07.02.2022)
+
+ ### Chores
+
+* **changelog:**  update for missing tags ([535143c](https://github.com/jvmn/groundzero-changelog/commit/535143c)) _by [Ralf Heller](ralf.heller@jvm.de) @07.02.2022_
+* **packagelockjson:**  update ([7fb4c4e](https://github.com/jvmn/groundzero-changelog/commit/7fb4c4e)) _by [Ralf Heller](ralf.heller@jvm.de) @07.02.2022_
+
+ ### Features
+
+* **template:**  refactor for git log command response ([94bc2b0](https://github.com/jvmn/groundzero-changelog/commit/94bc2b0)) _by [Ralf Heller](ralf.heller@jvm.de) @07.02.2022_
+* **index:**  refactor for using of git log command instead of nodegit ([1ba7346](https://github.com/jvmn/groundzero-changelog/commit/1ba7346)) _by [Ralf Heller](ralf.heller@jvm.de) @07.02.2022_
+* **helper:**  add helper functions for git log response processing ([5ce65c9](https://github.com/jvmn/groundzero-changelog/commit/5ce65c9)) _by [Ralf Heller](ralf.heller@jvm.de) @07.02.2022_
+* **packagejson:**  remove nodegit ([5894715](https://github.com/jvmn/groundzero-changelog/commit/5894715)) _by [Ralf Heller](ralf.heller@jvm.de) @07.02.2022_
+
+ *** 
+
+# [2.0.0](https://github.com/jvmn/groundzero-changelog/compare/1.8.0...2.0.0) (17.11.2020)
+
+ ### Chores
+
+* **version:**  update ([76d173e](https://github.com/jvmn/groundzero-changelog/commit/76d173e)) _by [Oliver Müller](oliver.mueller@jvm.de) @16.11.2020_
+
+ ### Features
+
+* **index:**  remove fractal conf dep, cleanup ([c4521b4](https://github.com/jvmn/groundzero-changelog/commit/c4521b4)) _by [Oliver Müller](oliver.mueller@jvm.de) @16.11.2020_
+* **packagejson:**  publish script ([de0e642](https://github.com/jvmn/groundzero-changelog/commit/de0e642)) _by [Oliver Müller](oliver.mueller@jvm.de) @26.10.2020_
+
+ *** 
+
+# [1.8.0](https://github.com/jvmn/groundzero-changelog/compare/1.7.0...1.8.0) (26.10.2020)
+
+ ### Chores
+
+* **packages:**  updates ([b9154ea](https://github.com/jvmn/groundzero-changelog/commit/b9154ea)) _by [Oliver Müller](oliver.mueller@jvm.de) @26.10.2020_
+
+ *** 
+
 # [1.7.0](https://github.com/jvmn/groundzero-changelog/compare/1.6.1...1.7.0) (11.07.2019)
 
  ### Chores
