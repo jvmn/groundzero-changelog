@@ -42,7 +42,7 @@ Defaults to:
     "extraComments": []
 },
 ```
-**The gitRepo url** (not the clone url) would be added from the project/fractal config, if none exist either add the url here or the changelog will not output commit urls or compare urls between releases.
+**The gitRepo url** used to generate Bitbucket/ Github links. Fractal config is not used anymore. 
 
 **gitPlatform** responsible for the url format outputed on commits and version compare, by default uses "bitbucket" but now supports also "github".
 
