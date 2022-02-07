@@ -1,6 +1,26 @@
 
  *** 
 
+# [2.0.0](https://github.com/jvmn/groundzero-changelog/compare/1.8.0...2.0.0) (17.11.2020)
+
+ ### Chores
+
+* **version:**  update ([76d173e](https://github.com/jvmn/groundzero-changelog/commit/76d173e)) _by [Oliver Müller](oliver.mueller@jvm.de) @16.11.2020_
+ ### Features
+
+* **index:**  remove fractal conf dep, cleanup ([c4521b4](https://github.com/jvmn/groundzero-changelog/commit/c4521b4)) _by [Oliver Müller](oliver.mueller@jvm.de) @16.11.2020_
+* **packagejson:**  publish script ([de0e642](https://github.com/jvmn/groundzero-changelog/commit/de0e642)) _by [Oliver Müller](oliver.mueller@jvm.de) @26.10.2020_
+
+ *** 
+
+# [1.8.0](https://github.com/jvmn/groundzero-changelog/compare/1.7.0...1.8.0) (26.10.2020)
+
+ ### Chores
+
+* **packages:**  updates ([b9154ea](https://github.com/jvmn/groundzero-changelog/commit/b9154ea)) _by [Oliver Müller](oliver.mueller@jvm.de) @26.10.2020_
+
+ *** 
+
 # [1.7.0](https://github.com/jvmn/groundzero-changelog/compare/1.6.1...1.7.0) (11.07.2019)
 
  ### Chores
